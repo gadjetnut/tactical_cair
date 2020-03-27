@@ -1,6 +1,6 @@
 Interrupt driven Arduino libary
 
- - Driven off Timer 0 (OCR0A) which triggers two class instances (servo and alarm)
+ - Driven off a timer intrrupt (OCR0A) which calls two class instances (servo and alarm) every millisecond
  - Non blocking
  - Timer0 - used for millis(), micros(), delay() and PWM on pins 5 & 6
  - Timer1 - used for Servos, and PWM on pins 9 & 10
